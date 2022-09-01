@@ -1,0 +1,15 @@
+Combinaiton of closing and opening tags is called element
+
+    <!-- Attributes change the property from one state to another -->
+    <!-- static and dynamic website -->
+    <!-- in static no functionality in dynamic we will add functionality -->
+static only html and css
+dynamic website uses JS also
+Visited link will be displayed in purple color
+Active link will be displayed in red color
+Unvisited link will be displayed in blue color
+See images in a website - inspect->newtworks->image
+Marquee
+    directions are right left up and down
+    behavior is alternate
+    scrollamount is speed

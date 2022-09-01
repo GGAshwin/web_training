@@ -1,0 +1,25 @@
+Lists
+    1.Ordered (numbered List)
+    2.Unordered (Bulleted List)
+    3.Definition (Descriptive List)
+
+Cell-spacing
+    spacing between the cells
+Cell-padding
+    spacing around the content
+
+Semantic Tags
+    Header
+    Div
+    Article
+    Main
+    Nav
+    Section
+    Time
+    Aside
+    Footer
+    Figcaption
+    Figure
+
+Form:
+    if action is # it is rendered in same page
