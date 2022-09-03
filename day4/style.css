@@ -1,0 +1,81 @@
+input[type="file"]::file-selector-button {
+    background-color: rgb(161, 106, 216);
+}
+
+/* p{
+    font-size: 20px; */
+/* text-align: center; */
+/* text-align: end;
+    text-align: start; */
+/* text-decoration:underline;
+    text-shadow: 3px 2px 1px red;
+    text-transform: capitalize;
+} */
+p {
+    text-indent: 100px;
+    word-spacing: 10px;
+    /* letter-spacing: 1rem; */
+    /* line-height: 2em; */
+    text-decoration: underline double;
+    font-variant: small-caps;
+    color: rgb(42, 0, 42);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    color: hsla(240deg, 60%, 80%, 0.9);
+}
+
+body {
+    /* background-image: url(../images/flowers-g45bcec606_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: url(../images/lucia-garo-f1kSWIe-W3k-unsplash.jpg) no-repeat center ; */
+    background: linear-gradient(rgb(255, 100, 100), rgb(116, 116, 190));
+    background: radial-gradient(rgb(218, 86, 255), rgb(255, 127, 127));
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid;
+
+}
+/* div{
+    padding: 20px;
+    border: 2px solid;
+    height: 100px;
+    width: 200px;
+} */
+button{
+    margin-top: 20px;
+    border-radius: 20px 100px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid;
+    background: linear-gradient(-160.5deg,orange 50%,green 50%);
+}
+button:hover{
+    cursor: pointer;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* img{
+    height: 500px;
+    -webkit-box-reflect: right;
+    filter: blur(5px);
+} */
+img{
+    height: 100%;
+}
+#mask{
+    -webkit-mask-image: url(../images/twitter.png);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size:40% ;
+}

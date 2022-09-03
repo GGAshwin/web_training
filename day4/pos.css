@@ -1,0 +1,28 @@
+/* body{
+    height: 100vh;
+    height: 100vh;
+}
+section{
+    position: sticky;
+    top: 0;
+    background-color: red;
+}
+div{
+    height: 100vh;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    position: absolute;
+    top: 50%;
+    /* right: 50%; */
+    font-size: 100px;
+    font-variant: small-caps;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}

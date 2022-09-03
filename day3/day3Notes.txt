@@ -1,0 +1,54 @@
+HTML for structure
+CSS for styling
+JS for Functionality
+
+Current version of CSS is 3
+
+Cascading means it follows the execution of order
+Style sheet is giving style for the html page
+CSS is case sensitive
+
+3 ways to style
+Inline <h1 style="font-size: 100">style</h1>
+Internal <style><style>
+External <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+Selectors
+    Simple
+    Combinator
+    Pseudo class
+    Pseudo Element
+    Attributes
+
+Simple Selectors
+    class(.)
+    id(#)
+    grouping(,)
+    Element(tag name)
+    Universal(*)
+
+ID is used to uniquely identify the element
+CLASS is vice versa
+
+Combinator Selectors (relationship between parent sibling and child)
+    Descendant( )
+    child(>)
+    Adjacent Sibling(+)
+    General Sibling(~)
+
+Pseudo class Selectors:
+    Anchor(unvisited, visited, active)
+    Hover
+    First-child
+    Last-child
+    nth-child
+    first-of-type
+    Last-of-type
+    focus
+
+Psuedo Elements:
+    first-line
+    first-letter
+    after
+    before
+    marker

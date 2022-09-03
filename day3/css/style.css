@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+#a{
+    background-color: lightblue;
+    color: red;
+    font-family: sans-serif;
+}
+.p{
+    color: green;
+}
+h3{
+    font-size: 100px;
+}
+div p{
+    color: orangered;
+}
+div >p{
+    color: black;
+}
+
+.div div + p{
+    color: blue;
+}
+
+#anch:active{
+    color: rgb(94, 255, 0);
+}
+/* #anch:visited{
+    color: lightblue;
+} */
+#anch{
+    color: red;
+}
+#anch:hover{
+    background-color: black;
+}
+/* p:first-child{
+    background-color: red;
+}
+p:last-child{
+    background-color: beige;
+}
+p:nth-child(even){
+    background-color: black;
+} */
+
+p:first-of-type{
+    background-color: violet;
+}
+p:last-of-type{
+    background-color: burlywood;
+}
+#focus{
+    transition: 0.5s ease-in-out;
+}
+#focus:focus{
+    background-color: rgb(109, 147, 218);
+    padding: 10px;
+    margin-left: 10px;
+    transition: 0.5s ease-in-out;
+
+}#focus:hover{
+    background-color: rgb(109, 147, 218);
+    padding: 10px;
+    margin-left: 10px;
+    transition: 0.5s ease-in-out;
+
+}
+#test::first-line{
+    background-color: yellow;
+}
+#test::first-letter{
+    background-color: red;
+    font-size: 100px;
+}
+/* #emoji::before{
+    content: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/kissing-face-with-smiling-eyes_1f619.png");
+} */
+li::marker{
+    color: red;
+}

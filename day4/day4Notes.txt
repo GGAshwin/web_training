@@ -1,0 +1,24 @@
+Properties:
+    Text
+    font
+    background
+    margin
+    border
+    padding
+
+Colors:
+    rgb
+    rgba (red green blue alpha)
+    hsl (hue saturation light)
+    hsla
+
+Black Box extension
+
+border-radius:
+    top
+    right
+    bottom
+    left
+
+Position:
+    

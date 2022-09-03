@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: 0.3s ease-in-out ;
+}
+.img:hover{
+    transform: translateY(-20px);
+    border-radius: 10px;
+    /* transform: rotate(240deg); */
+}
+#d1{
+    background-image: url(../images/flowers-g45bcec606_1280.jpg);
+    background-size: cover;
+    height: 90%;
+}
+#d2{
+    background-image: url(../images/lucia-garo-f1kSWIe-W3k-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+}
+#d3{
+    background-image: url(../images/steve-johnson-CGDY0B51Y4k-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+}
+#d4{
+    background-image: url(../images/flowers-g45bcec606_1280.jpg);
+    background-size: cover;
+    height: 90%;
+}
+#d5{
+    background-image: url(../images/vervain-ge977f8e07_1280.jpg);
+    background-size: cover;
+    height: 90%;
+}
+#d6{
+    background-image: url(../images/steve-johnson-CGDY0B51Y4k-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+}
+figure{
+    border: 2px solid;
+}
+figcaption{
+    background-color: rgb(255, 139, 139);
+    text-align: center;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 150px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}

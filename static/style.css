@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navabar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    padding: 10px 5px;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    transition: .3s ease-in-out;
+}
+
+.brand-title:hover {
+    color: wheat;
+    text-shadow: 5px 2px black;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+    transition: .3s ease-in-out;
+    font-size: 1.2rem;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: rgb(102, 102, 102);
+    border-radius: 5px;
+}
+
+.navbar-links li a:hover {
+    color: wheat;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* Navbar */
+section {
+    min-height: 100vh;
+}
+
+/* banner */
+#banner {
+    background: url(./images/annj-ad-uOtBYsbqCmg-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#banner h1 {
+    font-size: 3rem;
+    border-bottom: 4px solid;
+    letter-spacing: .7rem;
+    font-variant: small-caps;
+    font-weight: 300;
+}
+
+#banner h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+/* About */
+#about {
+    padding: 90px 30px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+#about div img {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#about p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.beaches {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.beaches img {
+    width: 50%;
+    transition: .3s ease-in-out;
+}
+
+.beaches img:hover {
+    transform: scale(1.1);
+}
+
+.beaches p {
+    font-size: 1.2rem;
+    width: 30%;
+    word-wrap: break-word;
+}
+#h2{
+    margin: 30px 0;
+}
+#gallery .img {
+    width: 40%;
+    height: 300px;
+    background-size: cover;
+    transition: .3s ease-in-out;
+}
+#gallery .img:hover{
+    transform: translateY(-10px);
+}
+#img1 {
+    background: url(./images/gettyimages-1200872144-612x612.jpg) no-repeat center;
+}
+
+#img2 {
+    background: url(./images/samrudh-kottary-MG70crxMZIc-unsplash.jpg) no-repeat center;
+}
+
+#img3 {
+    background: url(./images/IMG_20220207_1806351.jpg) no-repeat center;
+}
+
+#img4 {
+    background: url(./images/sid-arya-naJB1Jojmmk-unsplash.jpg) no-repeat center;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#gallery img {
+    width: 40%
+}
+
+@media screen and (max-width:1000px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .toggle-button:hover {
+        cursor: pointer;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .beaches p {
+        width: 100%;
+    }
+}
