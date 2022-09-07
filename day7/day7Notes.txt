@@ -1,0 +1,31 @@
+Output methods:
+    console.log
+    alert()
+    confirm()
+    document.write()
+    document.writeln()
+    promot()
+
+Primitive:
+    String
+    Number
+    Boolean
+    NULL
+    Undefined
+
+Non-Premitive:
+    Array
+    Function
+    Object
+        Date
+        Time
+        Math
+
+String Methods:
+    
+Function:
+    Named Function
+    Anonymous Function
+    Function with Expression
+    Arrow Function
+    Nested Function

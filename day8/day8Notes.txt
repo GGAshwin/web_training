@@ -1,0 +1,18 @@
+Arrays:
+    push
+    pop
+    shift
+    unshift
+    concat
+    join
+    reverse
+    for in
+    for of
+    for each
+    filter
+    map
+    return
+Objects:
+    collection of key value pair
+    seal
+    freeze

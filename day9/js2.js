@@ -1,0 +1,149 @@
+// let a=document.querySelector("button")
+// a.addEventListener("click",()=>{
+//     document.body.style.backgroundColor="#9873AC"
+// })
+
+const show=document.querySelectorAll("button")[0]
+show.addEventListener("click",()=>{
+    document.body.innerHTML+=`
+    <form action="./login.html" >
+        <fieldset>
+            <legend>
+                REGISTERATION FORM
+            </legend>
+            <table bgcolor="#456788">
+                <tr>
+                    <td>
+                        First Name:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your first name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Last Name:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your last name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        DOB:
+                    </td>
+                    <td>
+                        <input type="date" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td>
+                        <input type="email" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:
+                    </td>
+                    <td>
+                        <input type="password" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mobile Number:
+                    </td>
+                    <td>
+                        <input type="number" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="">Male
+                        <input type="radio" name="gender" id="">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address
+                    </td>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Courses:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="" id="">Pyhton
+                        <input type="checkbox" name="" id="">WEB
+                        <input type="checkbox" name="" id="">SQL
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Branch:
+                    </td>
+                    <td>
+                        <select>
+                            <option value="">Select</option>
+                            <option value="CS">CS</option>
+                            <option value="EC">EC</option>
+                            <option value="IS">IS</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Area of Interest:
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Feedback:
+                    </td>
+                    <td>
+                        <input type="range" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Upload Resume:
+                    </td>
+                    <td>
+                        <input type="file" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Upload Image:
+                    </td>
+                    <td>
+    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                    <td>
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+                </tr>
+        </fieldset>
+        </table>
+    </form>
+    `
+    document.querySelector('div').style.display = 'none';
+})

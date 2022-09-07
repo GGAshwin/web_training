@@ -31,7 +31,7 @@ body {
 
 .brand-title:hover {
     color: wheat;
-    text-shadow: 5px 2px black;
+    text-shadow: 5px 2px 3px black;
 }
 
 .navbar-links ul {

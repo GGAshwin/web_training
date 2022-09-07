@@ -1,0 +1,31 @@
+JavaScript
+    JS is an Object Oriented Language
+    Brandan Heck
+    ECMA-European computer manufacturing association
+
+Linking JavaScript:
+    Internal
+    External
+
+parser->AST->machine code->Code exec
+
+Tokens:
+    Smallest unit in a program
+
+    var a = 10
+    var->keyowrd
+    a->identifier
+    10->literal 
+
+console.log is a fucntion
+typeOf null is an object
+
+Operations:
+    Arithmetic:
+    + - * / % **
+    Logical:
+    && || !
+    Assignment:
+    += -= *= /= %=
+    Relational operator:
+    == === != <> !== < > >== <==
